@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de predicción del cliente</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+
+<body>
+   <video autoplay loop muted style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+        <source src="/static/image/video1.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+    <div class="container">
+        <h1>Ingrese su Informacion:</h1>
+        <form action="/predict" method="POST">
+            <label for="age">Cuantos Años:</label>
+            <input type="number" name="age" required><br><br>
+
+            <label for="annual_income">Ingresos anuales (k$):</label>
+            <input type="number" name="annual_income" required><br><br>
+
+            <label for="spending_score">Puntuación del gasto (1-100):</label>
+            <input type="number" name="spending_score" min="1" max="100" required><br><br>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+
+</html>

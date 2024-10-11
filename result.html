@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción Resultado</title>
+    <link rel="stylesheet" href="../static/css/resultado.css">
+</head>
+
+<body>
+    <h1>Predicción Resultado</h1>
+    <p><strong>Año:</strong> {{ age }}</p>
+    <p><strong>Ingresos anuales:</strong> {{ annual_income }}k$</p>
+    <p><strong>Puntuación del gasto:</strong> {{ spending_score }}</p>
+    <p><strong>Predicted Cluster(Agrupación prevista):</strong> {{ cluster }}</p>
+    <p><strong>Género previsto:</strong> {{ gender }}</p>
+
+    <h2>Cluster Visualization</h2>
+    <img src="{{ url_for('static', filename=image_file) }}" alt="Cluster Visualization">
+
+    <a href="/">Go Back</a>
+</body>
+
+</html>

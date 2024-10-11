@@ -1,0 +1,50 @@
+  body {  
+        font-family: Arial, sans-serif;  
+        background-color: #f9f9f9; /* Fondo ligero */  
+        margin: 0; /* Sin márgenes */  
+        padding: 20px; /* Espaciado interno */  
+    }  
+
+    h1 {  
+        text-align: center; /* Centra el título */  
+        color: #333; /* Color del texto */  
+    }  
+
+    p {  
+        font-size: 18px; /* Tamaño del texto */  
+        line-height: 1.5; /* Espaciado entre líneas */  
+        color: #555; /* Color del texto */  
+        margin: 10px 0; /* Espaciado vertical entre párrafos */  
+    }  
+
+    strong {  
+        color: #007BFF; /* Color para las etiquetas strong */  
+    }  
+
+    h2 {  
+        text-align: center; /* Centra el subtítulo */  
+        color: #444; /* Color del texto */  
+        margin-top: 30px; /* Espaciado superior */  
+    }  
+
+    img {  
+        display: block; /* Hace que la imagen se muestre como un bloque */  
+        max-width: 100%; /* Se asegura de que la imagen no exceda el contenedor */  
+        height: auto; /* Mantiene la relación de aspecto */  
+        margin: 0 auto; /* Centra la imagen */  
+    }  
+
+    a {  
+        display: inline-block; /* Hace que el enlace sea un bloque */  
+        margin: 20px auto; /* Margen alrededor del enlace */  
+        padding: 10px 20px; /* Espaciado interno del enlace */  
+        text-decoration: none; /* Sin subrayado */  
+        color: white; /* Color del texto del enlace */  
+        background-color: #007BFF; /* Color de fondo del enlace */  
+        border-radius: 5px; /* Bordes redondeados */  
+        text-align: center; /* Centra el texto del enlace */  
+    }  
+
+    a:hover {  
+        background-color: #0056b3; /* Efecto al pasar el ratón */  
+    }

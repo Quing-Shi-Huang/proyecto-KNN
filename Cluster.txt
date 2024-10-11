@@ -1,0 +1,41 @@
++Cluster 0 (purpura):Renta media, gasto medio. Se trata de clientes que se sitúan en la franja media de ingresos y gastos.
+
++Cluster 1 (azul): Ingresos elevados, gasto elevado. Estos son sus clientes más valiosos, ya que tienen los medios y la voluntad de gastar.
+
++Cluster 2 (turqoise):Renta baja, gasto elevado. Estos clientes pueden ser propensos a la compra impulsiva o priorizar el gasto a pesar de tener ingresos limitados.
+
++Cluster 3 (verde): Bajos ingresos, bajo gasto. Estos clientes son probablemente conscientes de su presupuesto y tienen un poder adquisitivo limitado.
+
++Cluster 4 (amarillo): Renta alta, gasto bajo. Se trata de clientes con una renta disponible importante, pero relativamente frugales.
+
+Cluster 0:
+ - Average Age: 55.28
+ - Average Annual Income: 47.62k$
+ - Average Spending Score: 41.71
+
+
+Cluster 1:
+ - Average Age: 32.88
+ - Average Annual Income: 86.10k$
+ - Average Spending Score: 81.53
+
+
+Cluster 2:
+ - Average Age: 25.77
+ - Average Annual Income: 26.12k$
+ - Average Spending Score: 74.85
+
+
+Cluster 3:
+ - Average Age: 26.73
+ - Average Annual Income: 10.31k$
+ - Average Spending Score: 20.91
+
+
+Cluster 4:
+ - Average Age: 44.39
+ - Average Annual Income: 89.77k$
+ - Average Spending Score: 18.48
+
+
+https://pablo1212miguel.pythonanywhere.com

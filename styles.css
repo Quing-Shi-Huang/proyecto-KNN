@@ -1,0 +1,51 @@
+body {  
+  margin: 0;  
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}  
+
+.container {  
+  position: relative;  
+  z-index: 10; /* Asegúrate de que el formulario esté por encima del video */  
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */  
+  padding: 20px;  
+  border-radius: 10px; /* Bordes redondeados */  
+  max-width: 400px; /* Ancho máximo para el formulario */  
+  margin: 100px auto; /* Centrar el formulario verticalmente en la página */  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra */  
+}  
+
+h1 {  
+  text-align: center; /* Centrar el título */  
+}  
+
+label {  
+  display: block; /* Hacer que las etiquetas se muestren en bloques */  
+  margin-bottom: 5px; /* Espaciado debajo de las etiquetas */  
+}  
+
+input[type="number"] {  
+  width: 95%; /* Ancho completo para los inputs */  
+  padding: 10px; /* Espaciado interno */  
+  margin-bottom: 15px; /* Espaciado entre inputs */  
+  border: 1px solid #ccc; /* Bordes */  
+  border-radius: 5px; /* Bordes redondeados para los inputs */  
+}  
+
+input[type="submit"] {  
+  width: 100%; /* Ancho completo para el botón */  
+  padding: 10px;  
+  background-color: #007BFF; /* Color de fondo del botón */  
+  color: white; /* Color del texto en el botón */  
+  border: none; /* Sin borde */  
+  border-radius: 5px; /* Bordes redondeados para el botón */  
+  cursor: pointer; /* Cambiar cursor al pasar */  
+}  
+
+input[type="submit"]:hover {  
+  background-color: #0056b3; /* Color cuando se pasa por encima */  
+}
